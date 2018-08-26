@@ -1,0 +1,261 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:16:1-58:12
+	package
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:17:11-55
+		INJECTED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:16:11-69
+	android:versionCode
+		INJECTED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml
+uses-feature#android.software.leanback
+ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:19:5-85
+MERGED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:51:5-53:35
+	android:required
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:19:60-83
+	android:name
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:19:19-59
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:20:5-89
+MERGED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:48:5-50:36
+	android:required
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:20:63-87
+	android:name
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:20:19-62
+uses-permission#com.amazon.permission.media.session.voicecommandcontrol
+ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:23:5-94
+	android:name
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:23:22-92
+application
+ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:25:5-56:19
+MERGED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:58:5-78:19
+MERGED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:30:5-59:19
+MERGED from [com.android.support:recommendation:23.1.1] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/com.android.support/recommendation/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [Application:PurchaseInterface:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/PurchaseInterface/0.7.1.201405082137/AndroidManifest.xml:25:5-28:19
+MERGED from [Application:DataLoader:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/DataLoader/0.7.1.201405082137/AndroidManifest.xml:25:5-47
+MERGED from [Application:DynamicParser:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/DynamicParser/0.7.1.201405082137/AndroidManifest.xml:25:5-28:19
+MERGED from [Application:AMZNMediaPlayerComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/AMZNMediaPlayerComponent/0.7.1.201405082137/AndroidManifest.xml:30:5-34:19
+MERGED from [Application:UAMP:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/UAMP/0.7.1.201405082137/AndroidManifest.xml:25:5-26:19
+MERGED from [Application:ContentModel:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentModel/0.7.1.201405082137/AndroidManifest.xml:25:5-26:19
+MERGED from [Application:PassThroughAdsComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/PassThroughAdsComponent/0.7.1.201405082137/AndroidManifest.xml:25:5-31:19
+MERGED from [Application:AdsInterface:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/AdsInterface/0.7.1.201405082137/AndroidManifest.xml:25:5-26:19
+MERGED from [Application:PassThroughLoginComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/PassThroughLoginComponent/0.7.1.201405082137/AndroidManifest.xml:25:5-29:19
+MERGED from [Application:AuthInterface:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/AuthInterface/0.7.1.201405082137/AndroidManifest.xml:25:5-47
+MERGED from [Application:LoggerAnalyticsComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/LoggerAnalyticsComponent/0.7.1.201405082137/AndroidManifest.xml:25:5-31:19
+MERGED from [Application:ModuleInterface:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ModuleInterface/0.7.1.201405082137/AndroidManifest.xml:25:5-26:19
+MERGED from [Application:AnalyticsInterface:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/AnalyticsInterface/0.7.1.201405082137/AndroidManifest.xml:25:5-28:19
+MERGED from [Application:Utils:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/Utils/0.7.1.201405082137/AndroidManifest.xml:26:5-29:19
+MERGED from [com.android.support:leanback-v17:23.1.1] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/com.android.support/leanback-v17/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [Application:Calligraphy:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/Calligraphy/unspecified/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:27:13-45
+	android:supportsRtl
+		ADDED from [Application:PurchaseInterface:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/PurchaseInterface/0.7.1.201405082137/AndroidManifest.xml:27:9-35
+	android:allowBackup
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:26:13-39
+	android:icon
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:29:13-46
+	android:banner
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:31:13-50
+	android:theme
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:30:13-44
+	android:name
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:28:13-73
+activity#com.amazon.android.tv.tenfoot.ui.activities.SplashActivity
+ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:32:9-55:20
+MERGED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:76:9-95
+	android:screenOrientation
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:34:17-54
+	android:launchMode
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:36:17-48
+	android:noHistory
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:35:17-41
+	android:name
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:33:17-90
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:37:13-41:29
+action#android.intent.action.MAIN
+ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:38:17-68
+	android:name
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:39:27-74
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:40:17-85
+	android:name
+		ADDED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml:40:27-83
+uses-sdk
+INJECTED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:37:5-39:41
+MERGED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:21:5-23:41
+MERGED from [com.android.support:recommendation:23.1.1] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/com.android.support/recommendation/23.1.1/AndroidManifest.xml:20:5-44
+MERGED from [Application:PurchaseInterface:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/PurchaseInterface/0.7.1.201405082137/AndroidManifest.xml:21:5-23:41
+MERGED from [Application:DataLoader:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/DataLoader/0.7.1.201405082137/AndroidManifest.xml:21:5-23:41
+MERGED from [Application:DynamicParser:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/DynamicParser/0.7.1.201405082137/AndroidManifest.xml:21:5-23:41
+MERGED from [com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android-no-op/1.4-beta2/AndroidManifest.xml:20:5-22:41
+MERGED from [Application:AMZNMediaPlayerComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/AMZNMediaPlayerComponent/0.7.1.201405082137/AndroidManifest.xml:21:5-23:41
+MERGED from [Application:UAMP:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/UAMP/0.7.1.201405082137/AndroidManifest.xml:21:5-23:41
+MERGED from [Application:ContentModel:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentModel/0.7.1.201405082137/AndroidManifest.xml:21:5-23:41
+MERGED from [Application:PassThroughAdsComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/PassThroughAdsComponent/0.7.1.201405082137/AndroidManifest.xml:21:5-23:41
+MERGED from [Application:AdsInterface:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/AdsInterface/0.7.1.201405082137/AndroidManifest.xml:21:5-23:41
+MERGED from [Application:PassThroughLoginComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/PassThroughLoginComponent/0.7.1.201405082137/AndroidManifest.xml:21:5-23:41
+MERGED from [Application:AuthInterface:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/AuthInterface/0.7.1.201405082137/AndroidManifest.xml:21:5-23:41
+MERGED from [Application:LoggerAnalyticsComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/LoggerAnalyticsComponent/0.7.1.201405082137/AndroidManifest.xml:21:5-23:41
+MERGED from [Application:ModuleInterface:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ModuleInterface/0.7.1.201405082137/AndroidManifest.xml:21:5-23:41
+MERGED from [Application:AnalyticsInterface:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/AnalyticsInterface/0.7.1.201405082137/AndroidManifest.xml:21:5-23:41
+MERGED from [Application:Utils:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/Utils/0.7.1.201405082137/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:leanback-v17:23.1.1] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/com.android.support/leanback-v17/23.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:23.1.1] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [io.reactivex:rxandroid:1.1.0] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.1.0/AndroidManifest.xml:19:5-43
+MERGED from [com.trello:rxlifecycle-components:0.4.0] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/com.trello/rxlifecycle-components/0.4.0/AndroidManifest.xml:17:5-44
+MERGED from [com.trello:rxlifecycle:0.4.0] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/com.trello/rxlifecycle/0.4.0/AndroidManifest.xml:17:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.3.0] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/com.jakewharton.rxbinding/rxbinding/0.3.0/AndroidManifest.xml:6:5-44
+MERGED from [Application:Calligraphy:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/Calligraphy/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lifegenius/fire-app-builder-master/Application/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:41:5-67
+MERGED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:26:5-67
+MERGED from [Application:AMZNMediaPlayerComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/AMZNMediaPlayerComponent/0.7.1.201405082137/AndroidManifest.xml:25:5-67
+MERGED from [Application:Utils:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/Utils/0.7.1.201405082137/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:41:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:42:5-81
+MERGED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:42:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:43:5-79
+MERGED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:28:5-79
+MERGED from [Application:AMZNMediaPlayerComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/AMZNMediaPlayerComponent/0.7.1.201405082137/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:43:22-76
+uses-feature#android.hardware.microphone
+ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:45:5-47:36
+	android:required
+		ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:47:9-33
+	android:name
+		ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:46:9-51
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:55:5-81
+MERGED from [Application:AMZNMediaPlayerComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/AMZNMediaPlayerComponent/0.7.1.201405082137/AndroidManifest.xml:28:5-81
+	android:name
+		ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:55:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:56:5-80
+	android:name
+		ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:56:22-77
+activity#com.amazon.android.tv.tenfoot.ui.activities.FullContentBrowseActivity
+ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:59:9-61:53
+	android:screenOrientation
+		ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:61:13-50
+	android:name
+		ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:60:13-97
+activity#com.amazon.android.tv.tenfoot.ui.activities.ContentBrowseActivity
+ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:62:9-64:53
+	android:screenOrientation
+		ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:64:13-50
+	android:name
+		ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:63:13-93
+activity#com.amazon.android.tv.tenfoot.ui.activities.ContentDetailsActivity
+ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:65:9-74:20
+	android:exported
+		ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:67:13-36
+	android:name
+		ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:66:13-94
+intent-filter#android.intent.action.VIEW
+ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:70:13-73:29
+action#android.intent.action.VIEW
+ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:71:17-69
+	android:name
+		ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:71:25-66
+activity#com.amazon.android.tv.tenfoot.ui.activities.ContentSearchActivity
+ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:75:9-102
+	android:name
+		ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:75:19-99
+activity#com.amazon.android.uamp.ui.PlaybackActivity
+ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:77:9-80
+	android:name
+		ADDED from [Application:TVUIComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/TVUIComponent/0.7.1.201405082137/AndroidManifest.xml:77:19-77
+uses-permission#com.amazon.device.permission.COMRADE_CAPABILITIES
+ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:25:5-89
+	android:name
+		ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:25:22-86
+receiver#com.amazon.android.contentbrowser.recommendations.BootCompletedReceiver
+ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:42:9-51:20
+	android:enabled
+		ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:44:13-35
+	android:exported
+		ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:43:13-99
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.TIMEZONE_CHANGED+android.intent.action.TIME_SET
+ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:46:13-50:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:47:17-79
+	android:name
+		ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:47:25-76
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:48:17-81
+	android:name
+		ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:48:25-78
+action#android.intent.action.TIME_SET
+ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:49:17-73
+	android:name
+		ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:49:25-70
+service#com.amazon.android.contentbrowser.recommendations.UpdateRecommendationsService
+ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:53:9-55:38
+	android:enabled
+		ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:55:13-35
+	android:name
+		ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:54:13-106
+service#com.amazon.android.contentbrowser.recommendations.DeleteRecommendationService
+ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:56:9-58:38
+	android:enabled
+		ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:58:13-35
+	android:name
+		ADDED from [Application:ContentBrowser:unspecified] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/ContentBrowser/unspecified/AndroidManifest.xml:57:13-105
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [Application:AMZNMediaPlayerComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/AMZNMediaPlayerComponent/0.7.1.201405082137/AndroidManifest.xml:27:5-76
+	android:name
+		ADDED from [Application:AMZNMediaPlayerComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/AMZNMediaPlayerComponent/0.7.1.201405082137/AndroidManifest.xml:27:22-73
+meta-data#AMZNAP@AMZNPlayer
+ADDED from [Application:AMZNMediaPlayerComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/AMZNMediaPlayerComponent/0.7.1.201405082137/AndroidManifest.xml:31:9-33:93
+	android:value
+		ADDED from [Application:AMZNMediaPlayerComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/AMZNMediaPlayerComponent/0.7.1.201405082137/AndroidManifest.xml:33:13-90
+	android:name
+		ADDED from [Application:AMZNMediaPlayerComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/AMZNMediaPlayerComponent/0.7.1.201405082137/AndroidManifest.xml:32:13-45
+meta-data#AMZNAP@PassThroughAds
+ADDED from [Application:PassThroughAdsComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/PassThroughAdsComponent/0.7.1.201405082137/AndroidManifest.xml:28:9-30:89
+	android:value
+		ADDED from [Application:PassThroughAdsComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/PassThroughAdsComponent/0.7.1.201405082137/AndroidManifest.xml:30:13-86
+	android:name
+		ADDED from [Application:PassThroughAdsComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/PassThroughAdsComponent/0.7.1.201405082137/AndroidManifest.xml:29:13-49
+meta-data#AMZNAP@PassThroughLogin
+ADDED from [Application:PassThroughLoginComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/PassThroughLoginComponent/0.7.1.201405082137/AndroidManifest.xml:26:9-28:111
+	android:value
+		ADDED from [Application:PassThroughLoginComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/PassThroughLoginComponent/0.7.1.201405082137/AndroidManifest.xml:28:13-108
+	android:name
+		ADDED from [Application:PassThroughLoginComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/PassThroughLoginComponent/0.7.1.201405082137/AndroidManifest.xml:27:13-51
+meta-data#AMZNAP@LoggerAnalytics
+ADDED from [Application:LoggerAnalyticsComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/LoggerAnalyticsComponent/0.7.1.201405082137/AndroidManifest.xml:28:9-30:97
+	android:value
+		ADDED from [Application:LoggerAnalyticsComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/LoggerAnalyticsComponent/0.7.1.201405082137/AndroidManifest.xml:30:13-94
+	android:name
+		ADDED from [Application:LoggerAnalyticsComponent:0.7.1.201405082137] /Users/lifegenius/fire-app-builder-master/Application/app/build/intermediates/exploded-aar/Application/LoggerAnalyticsComponent/0.7.1.201405082137/AndroidManifest.xml:29:13-50

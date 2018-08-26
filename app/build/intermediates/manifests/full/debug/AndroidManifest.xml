@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2015-2016 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+A copy of the License is located at
+
+    http://aws.amazon.com/apache2.0/
+
+or in the "license" file accompanying this file. This file is distributed
+on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+express or implied. See the License for the specific language governing
+permissions and limitations under the License.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fireappbuilder.android.calypso"
+    android:versionCode="10"
+    android:versionName="1.0.7" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
+
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <!-- Permission for getting voice command controls using media session -->
+    <uses-permission android:name="com.amazon.permission.media.session.voicecommandcontrol" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Launcher integration -->
+    <uses-permission android:name="com.amazon.device.permission.COMRADE_CAPABILITIES" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name="com.amazon.android.tv.tenfoot.base.TenFootApp"
+        android:allowBackup="true"
+        android:banner="@drawable/app_banner"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.amazon.android.tv.tenfoot.ui.activities.SplashActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <!-- Launcher integration intents -->
+            <!-- Uncomment the below intent filters to enable launcher integration -->
+            <!--
+            <intent-filter>
+                <action android:name="PLAY_CONTENT_FROM_LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="SIGN_IN_FROM_LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            -->
+            <!-- Launcher integration intents complete -->
+        </activity>
+        <activity
+            android:name="com.amazon.android.tv.tenfoot.ui.activities.FullContentBrowseActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.amazon.android.tv.tenfoot.ui.activities.ContentBrowseActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.amazon.android.tv.tenfoot.ui.activities.ContentDetailsActivity"
+            android:exported="true" >
+
+            <!-- Receives the PendingIntent requests to view a specific content. -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <!-- No category needed, because the Intent will specify this class component -->
+            </intent-filter>
+        </activity>
+        <activity android:name="com.amazon.android.tv.tenfoot.ui.activities.ContentSearchActivity" />
+        <activity android:name="com.amazon.android.uamp.ui.PlaybackActivity" /> <!-- Launcher integration -->
+        <!-- Uncomment the below receiver to enable launcher integration -->
+        <!--
+        <receiver android:name="com.amazon.android.contentbrowser.helper.LauncherIntegrationBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="com.amazon.device.REQUEST_CAPABILITIES" >
+                </action>
+            </intent-filter>
+        </receiver>
+        -->
+        <receiver
+            android:name="com.amazon.android.contentbrowser.recommendations.BootCompletedReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.amazon.android.contentbrowser.recommendations.UpdateRecommendationsService"
+            android:enabled="true" />
+        <service
+            android:name="com.amazon.android.contentbrowser.recommendations.DeleteRecommendationService"
+            android:enabled="true" />
+
+        <meta-data
+            android:name="AMZNAP@AMZNPlayer"
+            android:value="UAMP@com.amazon.mediaplayer.module.AMZNMediaPlayerImplCreator" />
+        <meta-data
+            android:name="AMZNAP@PassThroughAds"
+            android:value="IAds@com.amazon.ads.passthrough.PassThroughAdsImplCreator" />
+        <meta-data
+            android:name="AMZNAP@PassThroughLogin"
+            android:value="IAuthentication@com.amazon.android.auth.passthrough.PassThroughLoginImplCreator" />
+        <meta-data
+            android:name="AMZNAP@LoggerAnalytics"
+            android:value="IAnalytics@com.amazon.analytics.logger.LoggerAnalyticsImplCreator" />
+    </application>
+
+</manifest>
